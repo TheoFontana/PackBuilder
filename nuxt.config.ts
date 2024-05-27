@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  modules:["nuxt-vuefire", "@nuxt/ui"],
+  modules:["nuxt-vuefire", "@nuxt/ui", "@nuxtjs/tailwindcss"],
   ui: {
     icons: ['devicon']
   },
